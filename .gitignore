@@ -1,0 +1,50 @@
+# === Python & Environments ===
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+var/
+wheels/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+
+# === Node / Frontend ===
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.swc/
+npm-debug.log*
+
+# === Datasets & Large Files ===
+# GitHub blocks >100MB files, Dataset.csv is 153MB. If needed, use Git LFS.
+data/raw/Dataset.csv
+*.csv
+
+# === API/Config ===
+.env
+.env.*
+
+# === OS & IDE / Editor ===
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Surge Build Artifacts ===
+frontend/build/
